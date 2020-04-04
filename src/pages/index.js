@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1 style={{ color: `rgb(139, 195, 74)`, fontFamily: `Athiti` }}>
-      เรียนภาษาอังกฤษออนไลน์กับชาวอเมริกัน
+      เรียนภาษาอังกฤษออนไลน์ฟรีกับชาวอเมริกัน
     </h1>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
