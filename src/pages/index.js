@@ -8,15 +8,19 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi City English Project</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1 style={{ color: `rgb(139, 195, 74)`, fontFamily: `Athiti` }}>
+      เรียนภาษาอังกฤษออนไลน์กับชาวอเมริกัน
+    </h1>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
 
     <a href="https://cep-liff.herokuapp.com/">LOGIN</a>
-{/* <Link to="/page-2/">Go to page 2</Link>  */}
+    <p>------------------------</p>
+    <Link to="/page-2/">Go to page 2</Link>
+    <p>------------------------</p>
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Chonburi|Kanit|Maitree|Prompt|Sriracha|Taviraj|Trirong|Josefin+Sans" rel="stylesheet" />
+
   </Layout>
 )
 
