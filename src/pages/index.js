@@ -11,7 +11,18 @@ const IndexPage = () => (
     <h1 style={{ color: `rgb(139, 195, 74)`, fontFamily: `Athiti` }}>
       เรียนภาษาอังกฤษออนไลน์ฟรีกับชาวอเมริกัน
     </h1>
-    <p><a href="https://cep-liff.herokuapp.com/">เข้าสู่ระบบโดยใช้ LINE</a></p>
+    <h2>
+      <a
+        href="https://cep-liff.herokuapp.com/"
+        style={{
+          color: `rgb(45, 49, 121)`,
+          fontFamily: `Athiti`,
+          textDecoration: `none`
+        }}
+      >
+        คลิกที่นี่เพื่อดูชั้นเรียนของเรา
+      </a>
+    </h2>
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
       <Image />
     </div>
