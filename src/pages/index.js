@@ -19,7 +19,7 @@ const IndexPage = () => (
           fontFamily: `Athiti`,
         }}
       >
-        เรียนกับเรา
+        คลิกที่นี่
       </a>
     </h2>
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
