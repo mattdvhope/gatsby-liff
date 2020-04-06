@@ -13,13 +13,13 @@ const IndexPage = () => (
     </h1>
     <h2>
       <a
-        href="https://cep-liff.herokuapp.com/"
+        href={'https://access.line.me/dialog/oauth/weblogin?response_type=code&client_id=1654007002&redirect_uri=https%3A%2F%2Fwww.cityenglishproject.com%2F&state=' + makeState(10)}
         style={{
           color: `rgb(45, 49, 121)`,
           fontFamily: `Athiti`,
         }}
       >
-        คลิกตรงนี้
+        Click here to enter via LINE
       </a>
     </h2>
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
@@ -30,5 +30,15 @@ const IndexPage = () => (
 
   </Layout>
 )
+
+function makeState(length) {
+   let result           = '';
+   let characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+   let charactersLength = characters.length;
+   for ( let i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   return result;
+}
 
 export default IndexPage
