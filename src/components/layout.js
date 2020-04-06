@@ -39,7 +39,10 @@ const Layout = ({ children }) => {
         <footer style={{ color: `rgb(139, 195, 74)`}}>
           © {new Date().getFullYear()} สร้างโดย
           {` `}
-          <a href="https://www.cityenglishproject.com" style={{ color: `rgb(45, 49, 121)`, textDecoration: `none`}}>CEP</a>
+          <a href="https://www.cityenglishproject.com"
+             style={{ color: `rgb(45, 49, 121)`, textDecoration: `none`}}>
+            CEP
+          </a>
         </footer>
       </div>
     </>

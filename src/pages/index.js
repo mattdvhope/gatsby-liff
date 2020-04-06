@@ -17,10 +17,9 @@ const IndexPage = () => (
         style={{
           color: `rgb(45, 49, 121)`,
           fontFamily: `Athiti`,
-          textDecoration: `none`
         }}
       >
-        คลิกที่นี่เพื่อดูชั้นเรียนของเรา
+        เรียนกับเรา
       </a>
     </h2>
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
