@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `0.5rem 1.1rem`,
+        padding: `0.7rem 1.1rem`,
         textAlign: `center`
       }}
     >
@@ -22,8 +22,8 @@ const Header = ({ siteTitle }) => (
       <div style={{
         width: `52px`,
         position: `relative`,
-        right: `10px`,
-        bottom: `6px`,
+        right: `11px`,
+        bottom: `7px`,
         float: `left`,
       }}>
         <ImageLogo />
