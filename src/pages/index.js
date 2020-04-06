@@ -19,7 +19,7 @@ const IndexPage = () => (
           fontFamily: `Athiti`,
         }}
       >
-        คลิกที่นี่
+        คลิกตรงนี้
       </a>
     </h2>
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
