@@ -11,13 +11,11 @@ const IndexPage = () => (
     <h1 style={{ color: `rgb(139, 195, 74)`, fontFamily: `Athiti` }}>
       เรียนภาษาอังกฤษออนไลน์ฟรีกับชาวอเมริกัน
     </h1>
-    <a href="https://cep-liff.herokuapp.com/">เข้าสู่ระบบโดยใช้ LINE</a>
-    <p>------------------------</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <p><a href="https://cep-liff.herokuapp.com/">เข้าสู่ระบบโดยใช้ LINE</a></p>
+    <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
       <Image />
     </div>
 
-    <Link to="/page-2/">Go to page 2</Link>
     <link href="https://fonts.googleapis.com/css?family=Athiti|Chonburi|Kanit|Maitree|Prompt|Sriracha|Taviraj|Trirong|Josefin+Sans" rel="stylesheet" />
 
   </Layout>

@@ -29,17 +29,13 @@ const Header = ({ siteTitle }) => (
         <ImageLogo />
       </div>
 
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
+      <h1 style={{
+            margin: 0,
             color: `rgb(45, 49, 121)`,
             textDecoration: `none`,
             fontFamily: `Athiti`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+      }}>
+        {siteTitle}
       </h1>
     </div>
   </header>
