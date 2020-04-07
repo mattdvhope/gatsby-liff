@@ -4,6 +4,10 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+let redirection_loc = `https%3A%2F%2Fwww.cityenglishproject.com%2F`
+
+console.log(process.env.REDIRECT_URI);
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
