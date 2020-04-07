@@ -12,8 +12,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
-let loc = new URL(window.location)
-console.log(loc.pathname)
+// let loc = new URL(window.location)
+// console.log(loc.pathname)
 
 
 
