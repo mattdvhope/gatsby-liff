@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -13,7 +12,7 @@ const IndexPage = () => (
     </h1>
     <h2>
       <a
-        href={'https://access.line.me/dialog/oauth/weblogin?response_type=code&client_id=1654045933&redirect_uri=https%3A%2F%2Fwww.cityenglishproject.com%2F&state=' + makeState(10)}
+        href={`https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1654045933&redirect_uri=${process.env.REDIRECT_URI}&state=${makeState(10)}&scope=profile%20openid&max_age=2678400&ui_locales=th&bot_prompt=aggressive`}
         style={{
           color: `rgb(45, 49, 121)`,
           fontFamily: `Athiti`,
@@ -25,9 +24,6 @@ const IndexPage = () => (
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
       <Image />
     </div>
-
-    <link href="https://fonts.googleapis.com/css?family=Athiti|Chonburi|Kanit|Maitree|Prompt|Sriracha|Taviraj|Trirong|Josefin+Sans" rel="stylesheet" />
-
   </Layout>
 )
 

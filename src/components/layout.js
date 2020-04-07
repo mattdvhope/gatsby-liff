@@ -12,6 +12,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
+let loc = new URL(window.location)
+console.log(loc.pathname)
+
+
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -45,6 +50,7 @@ const Layout = ({ children }) => {
           </a>
         </footer>
       </div>
+      <link href="https://fonts.googleapis.com/css?family=Athiti|Chonburi|Kanit|Maitree|Prompt|Sriracha|Taviraj|Trirong|Josefin+Sans" rel="stylesheet" />
     </>
   )
 }
