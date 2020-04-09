@@ -23,7 +23,7 @@ const IndexPage = () => (
     </h1>
     <h2>
       <a
-        href={`https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1654045933&redirect_uri=${process.env.GATSBY_REDIRECT_URI}&state=${madeState}&scope=profile%20openid&max_age=30&ui_locales=th&bot_prompt=aggressive`}
+        href={`https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1654045933&redirect_uri=${process.env.GATSBY_API_URL}&state=${madeState}&scope=profile%20openid&max_age=30&ui_locales=th&bot_prompt=aggressive`}
         style={{
           color: `rgb(45, 49, 121)`,
           fontFamily: `Athiti`,
