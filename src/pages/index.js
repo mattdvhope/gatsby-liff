@@ -6,7 +6,8 @@ import Login from "../components/Login"
 
 
 let redirection_loc;
-let redirection_loc_prod = `https%3A%2F%2Fwww.cityenglishproject.com%2F`;
+let redirection_loc_prod = `https%3A%2F%2Fquizzical-payne-4097ad.netlify.com%2Fapp%2Fprofile`;
+// let redirection_loc_prod = `https%3A%2F%2Fwww.cityenglishproject.com%2F`;
 let redirection_loc_deve = process.env.REDIRECT_URI;
 redirection_loc = redirection_loc_deve ? redirection_loc_deve : redirection_loc_prod;
 
