@@ -1,7 +1,7 @@
 import React from "react"
 import { navigate } from "gatsby"
 import { handleLogin, isLoggedIn } from "../services/auth"
-import Layout from "./layout.js"
+// import Layout from "./layout.js"
 
 class Login extends React.Component {
   state = {
@@ -22,27 +22,30 @@ class Login extends React.Component {
       navigate(`/app/profile`)
     }
     return (
-      <form
-        method="post"
-        onSubmit={event => {
-          this.handleSubmit(event)
-          navigate(`/app/profile`)
-        }}
-      >
-        <label>
-          Username
-          <input type="text" name="username" onChange={this.handleUpdate} />
-        </label>
-        <label>
-          Password
-          <input
-            type="password"
-            name="password"
-            onChange={this.handleUpdate}
-          />
-        </label>
-        <input type="submit" value="Log In" />
-      </form>
+    	<>
+    		<h1>Login</h1>
+	      <form
+	        method="post"
+	        onSubmit={event => {
+	          this.handleSubmit(event)
+	          navigate(`/app/profile`)
+	        }}
+	      >
+	        <label>
+	          Username
+	          <input type="text" name="username" onChange={this.handleUpdate} />
+	        </label>
+	        <label>
+	          Password
+	          <input
+	            type="password"
+	            name="password"
+	            onChange={this.handleUpdate}
+	          />
+	        </label>
+	        <input type="submit" value="Log In" />
+	      </form>
+      </>
     )
   }
 }
