@@ -18,9 +18,6 @@ const Profile = () => (
       >
         Logout
       </a>
-
-
-
     </ul>
   </Layout>
 )
