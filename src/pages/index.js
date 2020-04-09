@@ -1,8 +1,9 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Login from "../components/Login"
+
 
 let redirection_loc;
 let redirection_loc_prod = `https%3A%2F%2Fwww.cityenglishproject.com%2F`;
@@ -27,6 +28,9 @@ const IndexPage = () => (
         Click here to enter via LINE
       </a>
     </h2>
+    <br/>
+    <Login />
+
     <div style={{ margin: `6% auto`, maxWidth: `300px` }}>
       <Image />
     </div>
